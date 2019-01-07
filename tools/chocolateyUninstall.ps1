@@ -38,3 +38,10 @@ if ($uninstallString -ne "") {
 
 
 
+
+
+
+
+
+
+
