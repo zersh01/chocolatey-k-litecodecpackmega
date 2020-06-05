@@ -4,7 +4,7 @@
   <metadata>
     <id>k-litecodecpackmega</id>
     <title>K-Lite Codec Pack Mega</title>
-    <version>15.2.5</version>
+    <version>15.5.0</version>
     <authors>Codec Guide</authors>
     <owners>zersh</owners>
     <summary>K-Lite Codec Pack Mega</summary>
@@ -25,10 +25,11 @@ Haali Matroska Muxer
     <copyright>Codec Guide</copyright>
     <licenseUrl>http://www.codecguide.com/termsofuse.htm</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>Updated MPC-HC to version 1.8.8.21
-Updated LAV Filters to version 0.74.1-30-gf768e
-Updated Codec Tweak Tool to version 6.4.4
-MPC-HC now has an option to enable a dark interface: MPC-HC menu &gt; View &gt; Dark theme</releaseNotes>
+    <releaseNotes>Updated MPC-HC to version 1.9.3.5
+Updated MPC Video Renderer to version 0.4.6.1292
+MPC-HC now uses its internal audio renderer by default (on fresh installs). This has some benefits such as automatic pitch correction. Please report if you get any audio problems because of this change.
+Some improvements for file associations on Windows 8/10
+Note: subtitle search in MPC-HC using OpenSubtitles now requires a login. OpenSubtitles has implemented this restriction because their servers are being overloaded now that many people are staying at home. You can create a free account on the opensubtitles.org website. You can then use these login details here: MPC-HC options &gt; Subtitles &gt; Misc &gt; right-click on OpenSubtitles &gt; Setup</releaseNotes>
     <iconUrl>https://cdn.jsdelivr.net/gh/zersh01/chocolatey-k-litecodecpackbasic@master/KLite.png</iconUrl>
     <docsUrl>http://codecguide.com/faq.htm</docsUrl>
     <packageSourceUrl>https://github.com/zersh01/chocolatey-k-litecodecpackmega</packageSourceUrl>

@@ -56,7 +56,7 @@ print "Avalible new version\n Vers: $version\n File: $FileName\n MD5: $md5\n Cha
 my $cinst = 'tools\chocolateyInstall.ps1';
  
 my $data = read_file($cinst);
-$data =~ s/\$url = \'(.*)\'/\$url = \'http:\/\/files2.codecguide.com\/$FileName\'/g;
+$data =~ s/\$url = \'(.*)\'/\$url = \'https:\/\/files3.codecguide.com\/$FileName\'/g;
 $data =~ s/\$checksum = \'(.*)\'/\$checksum = \'$md5\'/g;
 
 write_file($cinst, $data);
