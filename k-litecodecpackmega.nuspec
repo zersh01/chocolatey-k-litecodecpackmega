@@ -4,7 +4,7 @@
   <metadata>
     <id>k-litecodecpackmega</id>
     <title>K-Lite Codec Pack Mega</title>
-    <version>15.5.0</version>
+    <version>16.0.2</version>
     <authors>Codec Guide</authors>
     <owners>zersh</owners>
     <summary>K-Lite Codec Pack Mega</summary>
@@ -19,21 +19,22 @@ ACM and VFW codecs for video encoding/editing
 AC3Filter (as alternative choice for LAV and ffdshow audio decoders)
 Haali Matroska Muxer
 
-</description>
+![Screenshot MPC-HC](https://raw.githubusercontent.com/zersh01/chocolatey-k-litecodecpackmega/master/MPC-HC.png)
+ </description>
     <projectUrl>http://www.codecguide.com/</projectUrl>
     <tags>k-litecodecpackmega codec video media player </tags>
     <copyright>Codec Guide</copyright>
     <licenseUrl>http://www.codecguide.com/termsofuse.htm</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>Updated MPC-HC to version 1.9.3.5
-Updated MPC Video Renderer to version 0.4.6.1292
-MPC-HC now uses its internal audio renderer by default (on fresh installs). This has some benefits such as automatic pitch correction. Please report if you get any audio problems because of this change.
-Some improvements for file associations on Windows 8/10
-Note: subtitle search in MPC-HC using OpenSubtitles now requires a login. OpenSubtitles has implemented this restriction because their servers are being overloaded now that many people are staying at home. You can create a free account on the opensubtitles.org website. You can then use these login details here: MPC-HC options &gt; Subtitles &gt; Misc &gt; right-click on OpenSubtitles &gt; Setup</releaseNotes>
+    <releaseNotes>Updated MPC-HC to version 1.9.9.4
+Updated MPC Video Renderer to version 0.5.3.1640</releaseNotes>
     <iconUrl>https://cdn.jsdelivr.net/gh/zersh01/chocolatey-k-litecodecpackbasic@master/KLite.png</iconUrl>
     <docsUrl>http://codecguide.com/faq.htm</docsUrl>
     <packageSourceUrl>https://github.com/zersh01/chocolatey-k-litecodecpackmega</packageSourceUrl>
     <bugTrackerUrl>http://codecs.forumotion.net/f3-support</bugTrackerUrl>
+    <dependencies> 
+       <dependency id="kb2919355" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
