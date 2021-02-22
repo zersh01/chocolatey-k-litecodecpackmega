@@ -32,9 +32,6 @@ Updated MPC Video Renderer to version 0.5.3.1640</releaseNotes>
     <docsUrl>http://codecguide.com/faq.htm</docsUrl>
     <packageSourceUrl>https://github.com/zersh01/chocolatey-k-litecodecpackmega</packageSourceUrl>
     <bugTrackerUrl>http://codecs.forumotion.net/f3-support</bugTrackerUrl>
-    <dependencies> 
-       <dependency id="kb2919355" />
-    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
