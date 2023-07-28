@@ -4,7 +4,7 @@ $url = 'https://files3.codecguide.com/K-Lite_Codec_Pack_1768_Mega.exe'
 
 $silentArgs = '/VERYSILENT'
 
-$checksum = '90dc4a73f44b1232a66e816ff9a82818'
+$checksum = 'c8fac6eaafdc73d2ae203b8e4ef9f9d0'
 
 $checksumType = 'md5'
  
