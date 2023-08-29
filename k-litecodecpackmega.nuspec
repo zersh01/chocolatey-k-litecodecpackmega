@@ -4,7 +4,7 @@
   <metadata>
     <id>k-litecodecpackmega</id>
     <title>K-Lite Codec Pack Mega</title>
-    <version>17.7.0</version>
+    <version>17.7.5</version>
     <authors>Codec Guide</authors>
     <owners>zersh</owners>
     <summary>K-Lite Codec Pack Mega</summary>
@@ -26,12 +26,8 @@ Haali Matroska Muxer
     <copyright>Codec Guide</copyright>
     <licenseUrl>http://www.codecguide.com/termsofuse.htm</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>Updated MPC-HC to version 2.0.0.122
-Updated MPC Video Renderer to version 0.6.8.2103
-Updated MediaInfo Lite to version 23.07
-Updated Codec Tweak Tool to version 6.7.0
-MPC Video Renderer now supports Dolby Vision (profiles 5/8.1/8.4 only)
-MPC-HC internal subtitle renderer now has option to use libass</releaseNotes>
+    <releaseNotes>Updated MPC-HC to version 2.0.0.132
+Updated MPC Video Renderer to version 0.7.0.2131</releaseNotes>
     <iconUrl>https://cdn.jsdelivr.net/gh/zersh01/chocolatey-k-litecodecpackbasic@master/KLite.png</iconUrl>
     <docsUrl>http://codecguide.com/faq.htm</docsUrl>
     <packageSourceUrl>https://github.com/zersh01/chocolatey-k-litecodecpackmega</packageSourceUrl>
