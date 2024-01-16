@@ -4,7 +4,7 @@
   <metadata>
     <id>k-litecodecpackmega</id>
     <title>K-Lite Codec Pack Mega</title>
-    <version>18.0.0</version>
+    <version>18.0.5</version>
     <authors>Codec Guide</authors>
     <owners>zersh</owners>
     <summary>K-Lite Codec Pack Mega</summary>
@@ -26,14 +26,8 @@ Haali Matroska Muxer
     <copyright>Codec Guide</copyright>
     <licenseUrl>http://www.codecguide.com/termsofuse.htm</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>Updated MPC-HC to version 2.1.3.0
-Updated LAV Filters to version 0.78-1-ga1fd7
-Updated MPC Video Renderer to version 0.7.0.2160
-Updated MediaInfo Lite to version 23.11
-Updated Icaros to version 3.3.2
-Updated Codec Tweak Tool to version 6.7.1
-Added libass option for MPC-HC
-Removed XySubFilter</releaseNotes>
+    <releaseNotes>Updated MPC-HC to version 2.1.4.0
+Updated MPC Video Renderer to version 0.7.1.2172</releaseNotes>
     <iconUrl>https://cdn.jsdelivr.net/gh/zersh01/chocolatey-k-litecodecpackbasic@master/KLite.png</iconUrl>
     <docsUrl>http://codecguide.com/faq.htm</docsUrl>
     <packageSourceUrl>https://github.com/zersh01/chocolatey-k-litecodecpackmega</packageSourceUrl>
