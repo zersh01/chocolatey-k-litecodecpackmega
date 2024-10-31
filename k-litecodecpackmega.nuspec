@@ -4,7 +4,7 @@
   <metadata>
     <id>k-litecodecpackmega</id>
     <title>K-Lite Codec Pack Mega</title>
-    <version>18.5.0</version>
+    <version>18.6.5</version>
     <authors>Codec Guide</authors>
     <owners>zersh</owners>
     <summary>K-Lite Codec Pack Mega</summary>
@@ -26,8 +26,11 @@ Haali Matroska Muxer
     <copyright>Codec Guide</copyright>
     <licenseUrl>http://www.codecguide.com/termsofuse.htm</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>Updated MPC-HC to version 2.3.4.0
-Updated MPC Video Renderer to version 0.8.5.2275</releaseNotes>
+    <releaseNotes>Updated MPC-HC to version 2.3.7.0
+Updated LAV Filters to version 0.79.2-20-g81c56
+Updated MPC Video Renderer to version 0.8.8.2303
+Updated Icaros to version 3.3.3
+VSFilter is now restricted to loading only for a list of known apps. Please report if it no longer loads in your application, or if it loads when it should not.</releaseNotes>
     <iconUrl>https://cdn.jsdelivr.net/gh/zersh01/chocolatey-k-litecodecpackbasic@master/KLite.png</iconUrl>
     <docsUrl>http://codecguide.com/faq.htm</docsUrl>
     <packageSourceUrl>https://github.com/zersh01/chocolatey-k-litecodecpackmega</packageSourceUrl>
