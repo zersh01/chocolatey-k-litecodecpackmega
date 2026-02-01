@@ -4,7 +4,7 @@
   <metadata>
     <id>k-litecodecpackmega</id>
     <title>K-Lite Codec Pack Mega</title>
-    <version>19.4.0</version>
+    <version>19.4.5</version>
     <authors>Codec Guide</authors>
     <owners>zersh</owners>
     <summary>K-Lite Codec Pack Mega</summary>
@@ -26,9 +26,11 @@ Haali Matroska Muxer
     <copyright>Codec Guide</copyright>
     <licenseUrl>http://www.codecguide.com/termsofuse.htm</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>Updated MPC-HC to version 2.6.0.0
-Updated LAV Filters to version 0.80-14-gb6959
-Updated MPC Video Renderer to version 0.9.19.2490</releaseNotes>
+    <releaseNotes>Updated MPC-HC to version 2.6.1.0
+Updated LAV Filters to version 0.81-3-g5d467
+MPC Video Renderer is now used by default on more (older) systems. If you notice any issues, please report them immediately. 
+Include your GPU model and graphics driver version in your report. Your feedback is essential for us 
+to optimize the default settings for all possible hardware configurations.</releaseNotes>
     <iconUrl>https://cdn.jsdelivr.net/gh/zersh01/chocolatey-k-litecodecpackbasic@master/KLite.png</iconUrl>
     <docsUrl>http://codecguide.com/faq.htm</docsUrl>
     <packageSourceUrl>https://github.com/zersh01/chocolatey-k-litecodecpackmega</packageSourceUrl>
