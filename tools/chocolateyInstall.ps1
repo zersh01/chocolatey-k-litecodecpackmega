@@ -1,10 +1,10 @@
 ﻿$packageName = 'k-litecodecpackmega'
 $installerType = 'exe'
-$url = 'https://files3.codecguide.com/K-Lite_Codec_Pack_1950_Mega.exe'
+$url = 'https://files3.codecguide.com/K-Lite_Codec_Pack_1955_Mega.exe'
 
 $silentArgs = '/VERYSILENT'
 
-$checksum = '90caa38ce8a0e2aaf60aea07ca1f7786'
+$checksum = '8b909e1392e9b234592a0c248ec090b2'
 
 $checksumType = 'md5'
  
